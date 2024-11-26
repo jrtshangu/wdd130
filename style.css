@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 1.2px;
+    font-size: 1.4em;
+    margin-right: 3%;
+    
+}
+nav{
+    background-color: rgb(41, 53, 116);
+    color: aliceblue;
+    padding: 2%;
+}
+main{
+    max-width: 840px;
+}
+main .main{
+    padding-left: 2%;
+}
+
+main img{ 
+    width: 150px;
+    height: auto;
+    
+}
+/*Working on the aside element, setting declarations*/
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/0.2); /*1*/
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+p{
+    padding: 0;
+}
+
+/*Working on the footer*/
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
