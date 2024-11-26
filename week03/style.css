@@ -1,3 +1,11 @@
+header img{
+    width: 10rem;
+}
+header nav a{
+    text-decoration: none;
+    float: right;
+    margin-right: 2%;
+}
 h1, h2, h3, h4, h5, h5{
     font-family: 'roboto mono','nova mono';
 }
@@ -7,14 +15,11 @@ main #banner-box img{
 }
 
 
-footer{
-    text-align: center;
-    display: inline-flex;
-}
+
 footer .social-links a{
     text-decoration: none;
     border-radius: 10%/10%;
-    width: 10px;
+    width: 4rem;
     float: right;
-    margin-left: 2px;
+    margin-right: 2%;
 }
