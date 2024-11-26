@@ -15,4 +15,6 @@ footer .social-links a{
     text-decoration: none;
     border-radius: 10%/10%;
     width: 10px;
+    float: right;
+    margin-left: 2px;
 }
