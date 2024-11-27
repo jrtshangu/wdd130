@@ -85,8 +85,8 @@ main{
     justify-content: space-around;
 }
 .history p{
-    width: 100%;
-    height: auto;
+    padding-left: 4%;
+    text-align: left;
 }
 .history img{
     grid-column: 2/3;
@@ -97,6 +97,7 @@ main{
 section .advanture{
     padding: 0.7%;
 }
+
 .images{
     display: grid;
     grid-template-columns: repeat(4,1fr);
