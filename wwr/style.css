@@ -49,17 +49,14 @@ main{
 }
 #banner-box .banner{
     display: flex;
-    
     grid-gap: 1%;
     align-items: center;
 }
 .banner p{
-    grid-column: 1/2;
     text-align: left;
 }
 .banner img{
-    grid-column: 2/3;
-    width: 100%;
+    width: 150px;
 }
 
 /*History section*/
@@ -68,7 +65,7 @@ main{
     border-bottom: 1px solid #8E94F2;
 }
 .history p{
-    padding-left: 4%;
+    padding: 2%;
     text-align: left;
 }
 .history img{
@@ -88,7 +85,7 @@ section .advanture{
     padding: 2%;
 }
 .images img{
-    width: 99%;
+    width: 90%;
     height: auto;
 }
 /*hover effect for the adventure images*/
@@ -98,7 +95,7 @@ section .advanture{
     border: 1px solid transparent;
     box-shadow: 1px 1px 2px black;
     color: #fff;
-    width: 100%;
+    width: 99%;
 }
 /*working on the footer*/
 footer{
