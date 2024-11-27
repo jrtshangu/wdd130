@@ -43,7 +43,7 @@ main{
     
 }
 #banner-box{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #8E94F2;
     padding: 2%;
 }
 #banner-box .banner{
@@ -75,21 +75,73 @@ main{
 
 }
 /*History section*/
+.history{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1%;
+    border-bottom: 1px solid #8E94F2;
+    align-items: center;
+    justify-content: space-around;
+}
+.history p{
+    width: 100%;
+    height: auto;
+}
+.history img{
+    grid-column: 2/3;
+    width: 100%;
+}
 
 /*Adventure section*/
-
+section .advanture{
+    padding: 1%;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+}
+.images img{
+    width: 99%;
+    height: auto;
+}
+/*hover effect for the adventure images*/
+.images img:hover{
+    transition: all 0.02s ease-in-out;
+    background-color: #BBADFF;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 2px black;
+    color: #fff;
+    width: 100%;
+}
 /*working on the footer*/
 footer{
     background-color: #8E94F2;
 }
-footer p{
-    margin-left: 10%;
+footer #contacts-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2%;
+    align-items: center;
 }
-
-footer .social-links a{
+#contacts-box p{
+    text-align: center;
+}
+#contacts-box a{
     text-decoration: none;
-    border-radius: 10%/10%;
-    width: 4rem;
-    float: right;
-    margin-right: 2%;
+    color: black;
+}
+#contacts-box img{
+    width: 2em;
+    height: auto;
+}
+/*hover effect for the social links*/
+#contacts-box a:hover{
+    transition: all 0.02s ease-in-out;
+    background-color: #BBADFF;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 2px black;
+    color: #fff;
 }
