@@ -56,7 +56,7 @@ main{
     text-align: left;
 }
 .banner img{
-    width: 100px;
+    width: 10rem;
 }
 
 /*History section*/
@@ -70,7 +70,7 @@ main{
 }
 .history img{
     grid-column: 2/3;
-    width: 100%;
+    width: 10rem;
 }
 
 /*Adventure section*/
@@ -82,11 +82,13 @@ section .advanture{
     display: inline-flex;
     align-items: center;
     text-align: center;
+    
     padding: 2%;
 }
 .images img{
-    width: 90%;
+    width: 99%;
     height: auto;
+
 }
 /*hover effect for the adventure images*/
 .images img:hover{
@@ -95,7 +97,7 @@ section .advanture{
     border: 1px solid transparent;
     box-shadow: 1px 1px 2px black;
     color: #fff;
-    width: 99%;
+    width: 99.2%;
 }
 /*working on the footer*/
 footer{
