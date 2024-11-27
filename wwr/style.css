@@ -95,7 +95,7 @@ main{
 
 /*Adventure section*/
 section .advanture{
-    padding: 1%;
+    padding: 0.7%;
 }
 .images{
     display: grid;
