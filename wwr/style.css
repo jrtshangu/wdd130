@@ -48,8 +48,8 @@ main{
     padding: 2%;
 }
 #banner-box .banner{
-    display: grid;
-    grid-template-columns: 2fr 0.7fr;
+    display: flex;
+    
     grid-gap: 1%;
     align-items: center;
 }
@@ -61,28 +61,11 @@ main{
     grid-column: 2/3;
     width: 100%;
 }
-.banner button{
-    grid-column: 2/3;
-    background-color: #DAB6FC;
-    border-radius: 10%/10%;
-    font-size: 2rem;
-}
-.banner button:hover{
-    transition: all 0.02s ease-in-out;
-    background-color: #BBADFF;
-    border: 1px solid transparent;
-    box-shadow: 2px 2px 2px black;
-    color: #fff;
 
-}
 /*History section*/
 .history{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 1%;
+    display: inline-flex;
     border-bottom: 1px solid #8E94F2;
-    align-items: center;
-    justify-content: space-around;
 }
 .history p{
     padding-left: 4%;
@@ -99,8 +82,7 @@ section .advanture{
 }
 
 .images{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: inline-flex;
     align-items: center;
     text-align: center;
     padding: 2%;
