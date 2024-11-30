@@ -121,16 +121,16 @@ footer #contacts-box{
     width: 100%;
     
 }
-#contacts-box a{
+.icons a{
     text-decoration: none;
-    margin-right: 8%;
+    margin-right: 10%;
 }
-#contacts-box img{
+.icons img{
     width: 2em;
     border-radius: 10%/10%;  
 }
 /*hover effect for the social links*/
-#contacts-box img:hover{
+.icons img:hover{
     transition: all 0.02s ease-in-out;
     background-color: #BBADFF;
     border: 1px solid transparent;
