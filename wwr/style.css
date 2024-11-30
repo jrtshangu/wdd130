@@ -10,14 +10,15 @@ header .header{
     align-items: center;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 1%;
+    grid-gap: 2%;
     align-items: center;
 }
 header img{
     width: 10rem;
     margin-left: 10%;
+    border-radius: 5%/5%;
 }
-header .navigate a{
+nav  a{
     text-decoration: none;
     font-size: 1.1rem;
     border: 1px solid #000;
@@ -27,8 +28,10 @@ header .navigate a{
     color: black;
     
 }
-.navigate{
-    text-align: center;
+nav {
+    display: inline-flex;
+   
+
 }
 /*hover effect*/
 .navigate a:hover{
@@ -105,11 +108,17 @@ footer{
     
 }
 footer #contacts-box{
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: 1.2fr 0.4fr;
     padding: 2%;
     
 }
 #contacts-box p{
+    text-align: center;
+}
+#contacts-box .icons{
+    align-items: center;
+    width: 100%;
     
 }
 #contacts-box a{
@@ -118,9 +127,7 @@ footer #contacts-box{
 }
 #contacts-box img{
     width: 2em;
-    border-radius: 10%/10%;
-    margin-left: 5%;
-    
+    border-radius: 10%/10%;  
 }
 /*hover effect for the social links*/
 #contacts-box img:hover{
