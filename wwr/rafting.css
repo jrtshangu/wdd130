@@ -66,10 +66,12 @@ section{
 }
 
 .form {
-    width: 40%;
     text-align: left;
     margin-left: 10%;
+    margin-right: 10%;
     padding: 2%;
+    margin-top: 5%;
+    border-top: 1px solid black;
     
 }
 input{
@@ -81,6 +83,7 @@ input{
    
 }
 textarea{
+    
     font-size: 1.3em;
     border: 2px solid transparent;
     border-bottom: 2px solid #8E94F2;
@@ -94,6 +97,11 @@ button{
     color: white;
     border-radius: 10%/10%;
     margin-left: 20%;
+    cursor: pointer;
+}
+button:hover{
+    transition: all 0.03s ease-in-out;
+    box-shadow: 2px 2px 1px rebeccapurple;
 }
 /*Footer elements*/
 footer{
