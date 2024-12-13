@@ -77,17 +77,18 @@ section{
 input{
    font-size: 1.2em;
    margin-bottom: 1%; 
-   margin-left: 5%;
+   margin-left: 2%;
    border: 2px solid transparent;
     border-bottom: 2px solid #8E94F2;
    
 }
 textarea{
-    
+    width: 20em;
+    height: 5em;
     font-size: 1.3em;
     border: 2px solid transparent;
     border-bottom: 2px solid #8E94F2;
-    margin-left: 15%;
+    margin-left: 2%;
 }
 button{
     font-size: 1.4em;
