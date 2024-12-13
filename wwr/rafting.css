@@ -107,18 +107,18 @@ textarea{
 }
 button{
     font-size: 1.2em;
-    background-color: #8E94F2;
     border: 2px solid transparent;
-    border-bottom: 2px solid #8E94F2;
+    border-bottom: 2px solid #000000;
     color: white;
-    border-radius: 10%/10%;
+    border-radius: 5%/5%;
     margin-left: 15%;
     cursor: pointer;
     padding: 1%;
 }
 button:hover{
     transition: all 0.03s ease-in-out;
-    box-shadow: 2px 2px 1px rebeccapurple;
+    box-shadow: 2px 2px 1px rgb(252, 0, 0);
+    background-color: #000;
 }
 /*contact page image layout*/
 .images{
@@ -139,6 +139,7 @@ button:hover{
     grid-template-columns: 0.7fr 1.3fr;
     grid-template-rows: repeat(3,1fr);
     margin: 0% 5% 0% 5%;
+    grid-gap: 2%;
 }
 .contents .pictures{
     grid-column: 1/2;
@@ -148,9 +149,35 @@ button:hover{
 .pictures img{
     width: 100%;
 }
+
 .contents .trips{
     grid-column: 2/3;
-    grid-row: 1/5;
+    grid-row: 1/6;
+}
+.table{
+    grid-row: 1/4;
+}
+table {
+    border: 2px solid rgb(150, 153, 245);
+    width: 100%;
+    color: white;
+    font-size: 1.3em;
+    
+}
+table tr{
+    background-color: rgb(150, 153, 245);
+    border: 2px solid red;
+}
+button{
+    width: 75%;
+    background-color: #f60000;  
+}
+.trips button{
+    margin-top: 2%;
+    grid-row: 5/6;
+}
+.trips h1{
+    text-align: center;
 }
 /*General Footer elements*/
 footer{
