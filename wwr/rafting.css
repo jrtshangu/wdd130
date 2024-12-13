@@ -2,27 +2,33 @@
     margin: 0;
 }
 header{
-    border-bottom: 1px solid #000;
+    background-color: #8E94F2;
 }
 header img{
-    width: 10rem;
-    margin-left: 5%;
+    width: 8rem;
+    border-radius: 10%/10%;
+    margin-left: 7%;
 }
 header .header{
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     grid-gap: 1%;
     align-items: center;
+    padding: 2%;
 }
+
 .header .navigate{
-    margin-left: 20%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: right;
 }
 header .header a{
     text-decoration: none;
     border: 1px solid #000;
+    background-color: rgb(252, 253, 253);
     padding: 1%;
     color: black;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 /*Main elements*/
 main h2{
@@ -114,7 +120,7 @@ button:hover{
     transition: all 0.03s ease-in-out;
     box-shadow: 2px 2px 1px rebeccapurple;
 }
-/*image layout*/
+/*contact page image layout*/
 .images{
     display: inline-flex;
     float: right;
@@ -127,20 +133,55 @@ button:hover{
     width: 90%;
 }
 
-/*Footer elements*/
+/*Trip page layouts*/
+.contents{
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    grid-template-rows: repeat(3,1fr);
+    margin: 0% 5% 0% 5%;
+}
+.contents .pictures{
+    grid-column: 1/2;
+    grid-row: 1/5;
+    text-align: center;
+}
+.pictures img{
+    width: 100%;
+}
+.contents .trips{
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
+/*General Footer elements*/
 footer{
     padding: 2%;
+    background-color: #8E94F2;;
+}
+#contacts-box{
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    align-items: center;
+}
+.social-links{
+    display: inline-flex;
+    align-items: center;
+    justify-content: right;
 }
 footer img{
-    width: 5rem;
+    width: 2em;
     height: auto;
-    
+    border-radius: 10%/10%;
+  
 }
 footer p{
     text-align: center;
     
 }
 footer a{
-    float: right;
-    margin-right: 2%;
+   margin-right: 5%;
+   
+}
+footer img:hover{
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 2px black;
 }
