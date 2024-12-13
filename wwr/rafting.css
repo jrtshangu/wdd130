@@ -24,6 +24,7 @@ header .header a{
     color: black;
     margin-right: 2%;
 }
+/*Main elements*/
 main h2{
     text-align: center;
 }
@@ -50,7 +51,17 @@ main #adventure-box{
     border-bottom: 1px solid #000;
     padding: 2%;
 }
-
+/*contact page elements*/
+iframe{
+    border: 0;
+}
+#employees{
+    display: inline-flex;
+}
+#employees img{
+    width: 10em;
+}
+/*Footer elements*/
 footer{
     padding: 2%;
 }
