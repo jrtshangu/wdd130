@@ -59,78 +59,67 @@ main #adventure-box{
 }
 
 /*contact page elements*/
-iframe{
-    border: 0;
-    margin-top: 2%;
+.contacts{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    
 }
-section{
-    display: inline-block;
+.ring-us{
+    grid-column: 1/2;
+    display: block;
+    
 }
-#employees{
-    display: inline-flex;
-    margin: 2% 20% 0% 20%;
+.contacts .call{
+    margin: 2%;
+    padding: 2%;
 }
-#employees img{
+fieldset{
+    margin-top: 10%;
+}
+.ring-us .form{
+    margin: 1%;
+    align-items: center;
+}
+.form input{
+    margin-left: 2%;
+    margin-top: 2px;
+    padding: 2px;
     width: 90%;
-    margin-top: 2%;
-    border-radius: 10%/10%;
-    
-    
+    border: 2px solid transparent;
+    border-bottom: 2px solid #8E94F2;
+}
+.form textarea{
+    width: 90%;
+    height: 30%;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #8E94F2;
+    margin:  2% 0% 2% 0% ;
+}
+.ring-us button{
+    cursor: pointer;
 }
 
-.form {
-    text-align: left;
-    margin-left: 8%;
-    margin-right: 10%;
-    padding: 2%;
-    margin-top: 2%;
-    border-top: 1px solid black;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 2%;
-    
-}
-input{
-   font-size: 1.2em;
-   margin-bottom: 1%; 
-   border: 2px solid transparent;
-    border-bottom: 2px solid #8E94F2;
-   
-}
-textarea{
-    width: 20em;
-    height: 5em;
-    font-size: 1.3em;
-    border: 2px solid transparent;
-    border-bottom: 2px solid #8E94F2;
-    
-}
-button{
-    font-size: 1.2em;
-    border: 2px solid transparent;
-    border-bottom: 2px solid #000000;
-    color: white;
-    border-radius: 5%/5%;
-    margin-left: 15%;
-    cursor: pointer;
+.find-us{
+    grid-column: 2/3; 
     padding: 1%;
-}
-button:hover{
-    transition: all 0.03s ease-in-out;
-    box-shadow: 2px 2px 1px rgb(252, 0, 0);
-    background-color: #000;
-}
-/*contact page image layout*/
-.images{
-    display: inline-flex;
-    float: right;
     text-align: center;
-    width: 100%;
-    grid-column: 2/3;
 }
-.images img{
-    border-radius: 10%/10%;
-    width: 90%;
+.find-us img{
+    width: 93%;
+    border-radius: 5%/5%;
+}
+.find-us iframe{
+    width: 100%;
+    border-radius: 5%/5%;
+    margin-top: 2%;
+}
+.find-us #employees{
+    display: inline-flex;
+    grid-column: 1/3;
+}
+.find-us h2{
+    margin: 2%;
 }
 
 /*Trip page layouts*/
