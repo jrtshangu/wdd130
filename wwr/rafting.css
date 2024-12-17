@@ -159,19 +159,21 @@ fieldset{
     grid-column: 2/3;
     grid-row: 1/6;
 }
-.table{
-    grid-row: 1/4;
-}
+/*Table elements*/
 table {
-    border: 2px solid rgb(150, 153, 245);
+    grid-row: 1/4;
     width: 100%;
     color: white;
     font-size: 1.3em;
     
 }
-table tr{
-    background-color: rgb(150, 153, 245);
-    border: 2px solid red;
+table th{
+    background-color: rgb(150, 153, 245); 
+    color: white;   
+}
+table tr td{
+    color: black;
+    border-bottom: 1px solid rgb(150, 153, 245);
 }
 button{
     font-size: 1.2em;
