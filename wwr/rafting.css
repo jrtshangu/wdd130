@@ -30,7 +30,7 @@ header .header a{
     color: black;
     margin-right: 3%;
 }
-/*Main elements*/
+/*Working on index file*/ 
 main h2{
     text-align: center;
 }
@@ -56,6 +56,19 @@ main #details-box{
 main #adventure-box{
     border-bottom: 1px solid #000;
     padding: 2%;
+}
+.navigate{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+.navigate .images{
+    display: inline-flex;
+    padding: 2%;
+    text-align: center;
+}
+.navigate img{
+    width: 95%;
+    border-radius: 5%;   
 }
 
 /*contact page elements*/
@@ -161,11 +174,22 @@ table tr{
     border: 2px solid red;
 }
 button{
+    font-size: 1.2em;
     width: 75%;
-    background-color: #f60000;  
+    background-color: #8E94F2;
+    cursor: pointer; 
+    border-radius: 5%;
+    border: 2px solid transparent;
+    margin-left: 2%;
 }
+button:hover{
+    transition: all 0.03s ease-in-out;
+    background-color: red;
+    box-shadow: 2px 2px 2px black;
+}
+
 .trips button{
-    margin-top: 2%;
+    margin: 5%;
     grid-row: 5/6;
 }
 .trips h1{
